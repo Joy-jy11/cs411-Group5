@@ -1,10 +1,10 @@
-1. Predict Movie ratings for some combination of characters(real & non-real):
+1. Predict movie ratings for some combination of cast memebers / characters (real & non-real):
+The program will take in as input a variety of cast members (actors, directors, producers, etc...)
+It will then access the imdb database to calculate an average rating for a hypothetical movie containing each cast member
+Use a sentiment analysis to help predict the movie success (such as the rating)
 
-
-
-
-2.Food:
-type in your personal preference about food
-use the data and menu of restraunts near BU
+2. Restaurant recomendation:
+Type in your personal preference about food
+Use the data and menu of restraunts near BU
 When it's time for lunch, and you don't know what to eat and where. 
-Just type in "lunch" in search box, and the application will recommand a dish based on your preference for you (with the restaurant name & price stuff).
+Just type in "lunch" in search box, and the application will recommand a dish based on your preference (with the restaurant name & price stuff).
