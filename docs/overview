@@ -3,8 +3,10 @@ The program will take in as input a variety of cast members (actors, directors, 
 It will then access the imdb database to calculate an average rating for a hypothetical movie containing each cast member
 Use a sentiment analysis to help predict the movie success (such as the rating)
 
-2. Restaurant recomendation:
-Type in your personal preference about food
-Use the data and menu of restraunts near BU
-When it's time for lunch, and you don't know what to eat and where. 
-Just type in "lunch" in search box, and the application will recommand a dish based on your preference (with the restaurant name & price stuff).
+
+2. Restaurant recommendation:
+- A simple user story: I'm a BU student. When it's time for lunch, but I don't know what to eat and where. Just type in "lunch" in search box, and the application will recommand some dishes based on my preference (with the restaurant name & price stuff) near campus.
+- Database: personal preference about food, such as cuisine (Italian, Mexican, Asian, British, American,...), flavors(spicy, sweet, salty,...), ingredients(meat, vegetables, fruits,...), allergies(nuts, diary, seafood,...), faith(vegetarian, religion,...), and so on.
+- 2 publicly available data sets: the menu of restraunts near/in BU & general recipe for popular dishes from Internet & Google Maps
+- Third-party authentication: Gmail / phone number / instagram account(even though it's basically Facebook account)
+- Decoupled architecture: frontend (HTML/Javascript) - RESTful interface (don't know what it is???) - backend (Python/Javascript/Java/C/Ocaml/PHP)
