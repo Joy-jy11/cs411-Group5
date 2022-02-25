@@ -11,3 +11,4 @@
 - 2 publicly available data sets: The menu of restraunts near / in BU & general recipe for popular dishes from Internet & Google Maps
 - Third-party authentication: Gmail / phone number / instagram account(even though it's basically Facebook account)
 - Decoupled architecture: Frontend (HTML/Javascript) - RESTful API - backend (Python/Javascript/Java/C/OCaml/PHP)
+
