@@ -1,7 +1,7 @@
 1. Movie Rating Prediction:
-- Basic idea: Our goal is to predict movie ratings for some combination of cast memebers / characters (real & non-real). This program will take in as input a variety of cast members (actors, directors, producers, etc).
+- Basic idea: Our goal is to predict movie ratings for some combination of cast members / characters (real & non-real) and use sentimenta analysis on the movies they've been in to better determine the score of our imaginary movie. This program will take in as input a variety of cast members (actors, directors, producers, etc).
 - Database: We will use MongoDB as the database to store users' data (general information, preference, search history, etc).
-- 2 publicly available data sets: IMDb API / Rotten Tomatoes API. Reach for existed movies' news, critics and public reviews and ratings, pictures, trailers and more.
+- 2 publicly available data sets: IMDb API & Watson sentiment analysis. Reach for existing movies and cast members to attain ratings and then use sentiment analysis on the movies the cast members have been in to better determine the score.
 - Third-party authentication: Instagram / Facebook / Google / Twitter / Amazon / Apple or other social medias
 - Decoupled architecture: Frontend (Javascript/CSS/HTML) - RESTful API - backend (Ruby/PHP/Java/.Net/Python/OCaml)
 
