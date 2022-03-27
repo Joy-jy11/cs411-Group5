@@ -1,0 +1,12 @@
+Topic sentence: The user will use our website interface to input a minimum of 2 cast members (either within the same category or between 2 different ones) by 
+typing their names in a text box which will then allow them to submit their input.
+
+Happy path: The user will have provided two cast members that our website is able to find on the IMDB database where our calculations will be done.
+
+Exceptions: In the case where the user either mispells the name of a cast member or they inputed them into the wrong catergory (such as putting Tom Cruise as 
+a director), the website will have to return an error notifying the user of their mistake and how they can fix it. This is also applicable to when a user
+only inputs one name.
+
+Why this function is important for our app?
+This function is probably the most important one of our website as it encompasses the main goal of our project. Users will be spending the majority of their
+time using this functionaility, therefore we must define it as clearly as possible in order to ensure they have a smooth experience. 
