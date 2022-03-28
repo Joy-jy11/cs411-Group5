@@ -1,0 +1,20 @@
+User Story:
+
+As a user, I want to logout at any time in order to protect my personal details
+
+When the user is in the status of logged in (which refers to the login user story) , 
+they will have the ability to log out by clicking the log out bottom. The log out bottom 
+will be at the right corner of the page so the user can easily find it  whenever they want 
+to quit the web. With the log out bottom clicked, the pages will return to the log in page, 
+and the web will automatically remove the authentication details. In this case, the users 
+can choose to log out anytime so they can login with other accounts or protect their 
+personal information. 
+
+If after clicking the log out bottom, the page didn’t return to the log in page. The web 
+will throw exception and pop up a notification that reminds the user to click the log out bottom 
+for second time. 
+
+This sign out function is particular important function for the web app as it gives the 
+automaticity to the user, and allowed them to choose their status on web.
+The user can choose to log in for private preference and can also choose to 
+log out to protect their personal information. 
