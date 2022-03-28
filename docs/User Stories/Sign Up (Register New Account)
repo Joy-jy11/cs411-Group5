@@ -5,7 +5,7 @@ Happy path:
   I open this web application, it shows up a login page that allows me to choose sign-in or sign-up. Since I'm a new user, I click on the sign-up button 
 to register an account. Then, it asks me to register through Facebook/Instagram account. I choose one of them, and it jumps to an authentication page 
 that asks for my account username and password so I type in them. After it shows "authentication success," it jumps back to the web application, and I 
-can start to type some basic information for my profile/account. Then it refers to the user story of "Store/View Personal Profile and Basic Information."
+can start to type some basic information for my profile/account. Then it refers to the user story of "Store/View Personal Profile."
 
 Exceptions: 
 1. As a user, I want to see an error message saying that "No valid account found" if my account username or password for authentication is wrong so that 
