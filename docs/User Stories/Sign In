@@ -4,14 +4,14 @@ see my personal profile, probably review my search history.
 
 Happy path: 
 1. Right after signed up an new account, I see the web page jumping from authentication back to the app and I have already signed in. Then, it refers to 
-the user story of "Store/View Personal Profile and Basic Information."
+the user story of "Store/View Personal Profile."
 2. A few hours/days/months after signed up and filled out basic information for my new account of this web app, I open it and see the login page 
 with sign-in/sign-up options. I click on sign-in button and it shows login with Facebook/Instagram account. After I click the account that I used for 
 registration, the page jumps to authentication. Then, I type in my account username and password to log in. After the authentication succeeds, the page 
 jumps back to the web app. Right now, I can search the score of movie with my selection (actors, directors, and so on), see my personal profile, probably 
 review my search history. Specifically, If I want to search the score of movie with my selection (actors, directors, and so on), it refers to the user 
 story of "Search Preference." If I want to see/change my personal profile or review my search history, it refers to the user story of "Store/View Personal 
-Profile and Basic Information." 
+Profile." 
  
 Exceptions: 
 1. As a user, if my account does not exist in this web app, I expect to see the error message saying that "No such account exists" so that I can sign up 
