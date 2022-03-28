@@ -1,10 +1,24 @@
-Prediction Result
-
+Topic sentence 1:
 As a user on this movie prediction website, I want to have a simple “predict” button that can be clicked on to show the prediction result. 
+
+Happy path 1:
 After choosing all the preferences I wanted for the movie, I would like to have one button that can do the prediction for me at just one click. 
 In this way, I can easily and quickly obtain a prediction result for my preferences. 
 
+
+Topic sentence 2:
 In addition to the “predict” button, I want the website to show a simple and clear prediction result for the characteristics I chose for 
-the imaginary movie. The website should display a prediction score for the imaginary movie and indicate the meaning of this score so that 
-I have a full understanding of the prediction method and the reliability of the score. In the case of exception, such as not choosing enough 
-features when clicked on the "predict" button, I would want to see an error message to remind me the mistake.
+the imaginary movie. 
+
+Happy path 2:
+The website should display a prediction score for the imaginary movie and indicate the meaning of this score so that 
+I have a full understanding of the prediction method and the reliability of the score. 
+
+
+Exception:
+In the case of exception, such as not choosing enough features when clicked on the "predict" button, I would want to see an error message 
+to remind me the mistake.
+
+
+Why is this function important for our app?
+It shows the final result/score based on the input given by users, so it is crucial because it is what they really want to get by using our app.
