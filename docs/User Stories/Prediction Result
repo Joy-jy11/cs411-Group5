@@ -6,4 +6,5 @@ In this way, I can easily and quickly obtain a prediction result for my preferen
 
 In addition to the “predict” button, I want the website to show a simple and clear prediction result for the characteristics I chose for 
 the imaginary movie. The website should display a prediction score for the imaginary movie and indicate the meaning of this score so that 
-I have a full understanding of the prediction method and the reliability of the score. 
+I have a full understanding of the prediction method and the reliability of the score. In the case of exception, such as not choosing enough 
+features when clicked on the "predict" button, I would want to see an error message to remind me the mistake.
