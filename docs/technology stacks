@@ -1,5 +1,9 @@
+Process: After listening Dev's introduction in lab, going through the slides, and discussing with team members, we made the choice.
+
 Frontend: React
--reason: It's one of the most popular frontend framework, so it might help us later in internship/job.
+-reason & why choose this over others: 
+  It's one of the most popular frontend framework and also javascript-based (known for the popular use in full-stack & frontend development in recent years), so it might help us later in software-development internship/jobs.
 
 Backend: Django
--reason: It's a python-based framework, so it's relatively easy to pick up for our team members and also easy to set up the environment because most of us have already installed python package before.
+-reason & why choose this over others: 
+  It's a python-based framework, so it's relatively easy to pick up for our team members and also easy to set up the environment because most of us have already installed python package before. We've considered Flask, which is also python-based and even easier to install and set up, but it has less packages than Django (and Dev gave us an useful tutorial about how to connect React & Django. We follow the steps and make it work), so we finally settled down on Django.
