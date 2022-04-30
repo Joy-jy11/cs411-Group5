@@ -32,21 +32,25 @@ def index(request):
     data = React.objects.all().last()
 
     response = requests.get(
-        "https://imdb-api.com/en/API/SearchMovie/" + config.api_key + "/" + data.name).json()
+        "https://imdb-api.com/en/API/SearchMovie/" + config.api_key_imdb + "/" + data.name).json()
 
     result=response.get("results")
     id = result[0].get("id")
 
+    res1 = requests.get("https://www.omdbapi.com/?t=" + data.name + "&apikey=" + config.api_key_omdb).json()
+    yearR = React(name="Year: "+res1.get("Year"))
+    yearR.save()
 
-    res2 = requests.get("https://imdb-api.com/en/API/Ratings/k_c9yzqvxy/" + id).json()
+
+    res2 = requests.get("https://imdb-api.com/en/API/Ratings/"+ config.api_key_imdb +"/" + id).json()
 
     imDbRd = float(res2.get("imDb"))
     imDbR = React(name="imdb: "+str(imDbRd) + "/10")
     imDbR.save()
 
-    rottenTomatoesRd = float(res2.get("rottenTomatoes"))
-    rottenTomatoesR = React(name="rottenTomatoes: "+ str(rottenTomatoesRd) + "/100")
-    rottenTomatoesR.save()
+    # rottenTomatoesRd = float(res2.get("rottenTomatoes"))
+    # rottenTomatoesR = React(name="rottenTomatoes: "+ str(rottenTomatoesRd) + "/100")
+    # rottenTomatoesR.save()
 
     metacriticRd = float(res2.get("metacritic"))
     metacriticR = React(name="metacritic: "+ str(metacriticRd) +"/100")
@@ -60,7 +64,7 @@ def index(request):
     filmAffinityR = React(name= "filmAffinity: " + str(filmAffinityRd) + "/10")
     filmAffinityR.save()
 
-    averaged = (imDbRd + rottenTomatoesRd/10 + metacriticRd/10 + theMovieDbRd + filmAffinityRd )/5
+    averaged = (imDbRd + metacriticRd/10 + theMovieDbRd + filmAffinityRd )/4
     average = React(name= "average: " + str(averaged) + "/10" )
     average.save()
 
