@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React from "react";
-import axios from "axios";
-import './App.css';
-import LoginHooks from './LoginHooks';
-import LogoutHooks from './LogoutHooks';
-=======
+
+
 /*import logo from './logo.svg';
 import './App.css';
 
@@ -35,7 +30,10 @@ import React from "react";
 import axios from "axios";
 import { useState } from 'react'
 import {findAllByAltText} from "@testing-library/react";
->>>>>>> origin/main
+import './App.css';
+import LoginHooks from './LoginHooks';
+import LogoutHooks from './LogoutHooks';
+
 
 
 
@@ -111,15 +109,14 @@ class App extends React.Component {
         return (
 
             <div className="container jumbotron ">
-<<<<<<< HEAD
+
                 <h5></h5>
                 <LoginHooks />
                             <br />
-                            <LogoutHooks />
+                <LogoutHooks />
                             <br />
                 <h5></h5>
-=======
->>>>>>> origin/main
+
                 <form onSubmit={this.handleSubmit}>
                     <div className="input-group mb-3">
                         <div className="input-group-prepend">

@@ -37,11 +37,9 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-<<<<<<< HEAD
+
 VIRTUAL_ENV="/Users/shenjiayi/Desktop/cs411-Group5/backend/env"
-=======
-VIRTUAL_ENV="/Users/shenjiayi/Desktop/CS411-new/backend/env"
->>>>>>> origin/main
+
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
