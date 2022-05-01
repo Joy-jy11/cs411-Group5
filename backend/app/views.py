@@ -1,11 +1,23 @@
+<<<<<<< HEAD
 from rest_framework.views import APIView
+=======
+from django.shortcuts import render
+from rest_framework.views import APIView
+from .models import *
+>>>>>>> origin/main
 from rest_framework.response import Response
 from .serializer import *
 from django.shortcuts import render
 from .models import React
 import requests
 from .import config
+<<<<<<< HEAD
 
+=======
+import json
+from .import models
+from django.db import models
+>>>>>>> origin/main
 
 
 class ReactView(APIView):
