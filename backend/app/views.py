@@ -1,15 +1,11 @@
-from django.shortcuts import render
 from rest_framework.views import APIView
-from .models import *
 from rest_framework.response import Response
 from .serializer import *
 from django.shortcuts import render
 from .models import React
 import requests
 from .import config
-import json
-from .import models
-from django.db import models
+
 
 
 class ReactView(APIView):
