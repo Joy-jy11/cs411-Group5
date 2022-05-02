@@ -1,41 +1,9 @@
-
-
-/*import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;*/
-
 import React from "react";
 import axios from "axios";
 import { useState } from 'react'
 import {findAllByAltText} from "@testing-library/react";
-import './App.css';
-import LoginHooks from './LoginHooks';
-import LogoutHooks from './LogoutHooks';
-
-
-
+import LogoutHooks from "./LogoutHooks";
+import { isContentEditable } from "@testing-library/user-event/dist/utils";
 
 class App extends React.Component {
     state = {
@@ -109,22 +77,16 @@ class App extends React.Component {
         return (
 
             <div className="container jumbotron ">
-
-                <h5></h5>
-                <LoginHooks />
-                            <br />
-                <LogoutHooks />
-                            <br />
-                <h5></h5>
-
                 <form onSubmit={this.handleSubmit}>
                     <div className="input-group mb-3">
-                        <div className="input-group-prepend">
+                        <div style={styles.header} className="input-group-prepend">
                             <span className="input-group-text"
                                   id="basic-addon1">
                                 {" "}
-                                Search{" "}
                             </span>
+                            <div>
+                              <LogoutHooks/>
+                            </div>
 
                         </div>
                         <input type="text" className="form-control"
@@ -178,4 +140,12 @@ class App extends React.Component {
         );
     }
 }
+
+const styles = {
+  header:{
+      display:"flex", 
+      justifyContent:"space-between"
+  }
+}
+
 export default App;
