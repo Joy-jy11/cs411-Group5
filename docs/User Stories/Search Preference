@@ -2,7 +2,7 @@ Topic sentence:
 The user will use our website interface to input a movie name of their preference.
 
 Happy path: 
-The user will have provided two cast members that our website is able to find on the IMDB database where our calculations will be done.
+The user will enter a movie's name, then our website will able to find on the IMDB database where our calculations will be done.
 
 Exceptions: 
 In the case where the user either mispells the name of the movie, the website will have to return an error notifying the user of their mistake and how they can fix it. This is also applicable to when a user
