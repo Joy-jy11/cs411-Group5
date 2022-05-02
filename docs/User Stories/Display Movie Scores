@@ -1,6 +1,6 @@
 
 Topic sentence 1:
-As a user on this movie prediction website, I want to have to see the scores of the chosen movie from other websites such as IMDB, and RottenTomato.
+As a user on this movie prediction website, I want to have to see movie's name, year, and the scores of the chosen movie from other websites such as IMDB, theMovieDb, and filmAffinity.
 
 Happy path 1:
 After typing in my movie name, I would like the website to display all the available movie scores with the name of the website where the scores are obtained. 
