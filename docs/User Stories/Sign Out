@@ -4,16 +4,15 @@ As a user, I want to logout at any time in order to protect my personal details.
 Happy path:
 When the user is in the status of logged in (which refers to the login user story) , 
 they will have the ability to log out by clicking the log out bottom. The log out bottom 
-will be at the right corner of the page so the user can easily find it  whenever they want 
+will be at the right corner of the page so the user can easily find it whenever they want 
 to quit the web. With the log out bottom clicked, the pages will return to the log in page, 
 and the web will automatically remove the authentication details. In this case, the users 
 can choose to log out anytime so they can login with other accounts or protect their 
 personal information. 
 
 Exception:
-If after clicking the log out bottom, the page didn’t return to the log in page. The web 
-will throw exception and pop up a notification that reminds the user to click the log out bottom 
-for second time. 
+If after clicking the log out bottom, the page didn’t return to the log-in page. The web 
+will throw exception and the user needs to click the log out button again.
 
 Why is this function important for our app?
 This sign out function is particular important function for the web app as it gives the 
