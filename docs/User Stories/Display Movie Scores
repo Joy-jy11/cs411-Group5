@@ -1,1 +1,14 @@
 
+Topic sentence 1:
+As a user on this movie prediction website, I want to have to see the scores of the chosen movie from other websites such as IMDB, and RottenTomato.
+
+Happy path 1:
+After typing in my movie name, I would like the website to display all the available movie scores with the name of the website where the scores are obtained. 
+
+
+Exception:
+In the case of exception, such as not typing in the movie name correctly, I would like to see an error message telling me the issue.
+
+
+Why is this function important for our app?
+It shows the difference scores of the chosen movie which is important since this is how the final average movie score is based on.
