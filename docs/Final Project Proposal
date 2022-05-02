@@ -1,8 +1,8 @@
+Movie Rating Average Score:
 
- Movie Rating Average Score:
-- Basic idea: Our goal is to display movie ratings from differen websites and, able to calculate and display the average movie score based
-on the scores we obtained from different movie rating websites (Could be IMDB, RottenTomato, and etc).
-- Database: We will use MongoDB as the database to store users' data (general information, preference, search history, etc).
+- Basic idea: Our goal is to collect movie ratings from different websites and, able to calculate and display the average movie rating based
+on the scores we obtained from different movie rating websites (could be IMDB, RottenTomato, and etc).
+- Database: We will use SQL as our database to store users' data (general information, preference, search history, etc).
 - 2 publicly available data sets: IMDb API & OMDB API. Reach for existing movies and cast members to attain ratings, movie descrptions, and movie year.
 - Third-party authentication: Google 
 - Decoupled architecture: Frontend (Javascript/CSS/HTML) - RESTful API - backend (Ruby/PHP/Java/.Net/Python/OCaml)
