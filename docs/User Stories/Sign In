@@ -1,22 +1,12 @@
 Topic sentence:
-  As a user, I want to sign in my account to access this web application and search the score of movie with my selection (actors, directors, and so on), 
-see my personal profile, probably review my search history.
+  As a user, I want to sign in my account to access this web application and search the score of the chosen movie.
 
 Happy path: 
-1. Right after signed up an new account, I see the web page jumping from authentication back to the app and I have already signed in. Then, it refers to 
-the user story of "Store/View Personal Profile."
-2. A few hours/days/months after signed up and filled out basic information for my new account of this web app, I open it and see the login page 
-with sign-in/sign-up options. I click on sign-in button and it shows login with Facebook/Instagram account. After I click the account that I used for 
-registration, the page jumps to authentication. Then, I type in my account username and password to log in. After the authentication succeeds, the page 
-jumps back to the web app. Right now, I can search the score of movie with my selection (actors, directors, and so on), see my personal profile, probably 
-review my search history. Specifically, If I want to search the score of movie with my selection (actors, directors, and so on), it refers to the user 
-story of "Search Preference." If I want to see/change my personal profile or review my search history, it refers to the user story of "Store/View Personal 
-Profile." 
+1. I am able to sign in using my google account and see a message notifies me that I have sign in via google successfully.
  
 Exceptions: 
-1. As a user, if my account does not exist in this web app, I expect to see the error message saying that "No such account exists" so that I can sign up 
-my account first then sign in.
+1. As a user, if I failed to sign in with the current google account that I have I would like to see an error message telling me this issue.
 
 Why this function is important for our app?
-1. Every time users want to use this web application, they can just login in the Facebook/Instagram account that they used for register and nothing more 
+1. Every time users want to use this web application, they can just login using their google account and nothing more 
 needed. Since it is easy for users to use, it benefits us because we want more users to use our app.
