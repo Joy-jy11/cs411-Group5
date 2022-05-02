@@ -6,16 +6,8 @@ After typing in my movie name, I would like to have one button that can do the p
 In this way, I can easily and quickly obtain a average movie score. 
 
 
-Topic sentence 2:
-In addition to the “search” button, I want the website to show a simple and clear prediction result that shows the average score of the movie of preference. 
-
-Happy path 2:
-The website should display an average movie score for the chosen movie and indicate the meaning of this score so that 
-I have a full understanding of the result displayed. 
-
-
 Exception:
-In the case of exception, such as not choosing enough features when clicked on the "predict" button, I would want to see an error message 
+In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, I would want to see an error message 
 to remind me the mistake.
 
 
