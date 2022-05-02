@@ -1,18 +1,17 @@
 Topic sentence 1:
-As a user on this movie prediction website, I want to have a simple “predict” button that can be clicked on to show the prediction result. 
+As a user on this movie prediction website, I want to have a simple “search” button that can be clicked on to show the average movie score. 
 
 Happy path 1:
-After choosing all the preferences I wanted for the movie, I would like to have one button that can do the prediction for me at just one click. 
-In this way, I can easily and quickly obtain a prediction result for my preferences. 
+After typing in my movie name, I would like to have one button that can do the prediction for me at just one click. 
+In this way, I can easily and quickly obtain a average movie score. 
 
 
 Topic sentence 2:
-In addition to the “predict” button, I want the website to show a simple and clear prediction result for the characteristics I chose for 
-the imaginary movie. 
+In addition to the “search” button, I want the website to show a simple and clear prediction result that shows the average score of the movie of preference. 
 
 Happy path 2:
-The website should display a prediction score for the imaginary movie and indicate the meaning of this score so that 
-I have a full understanding of the prediction method and the reliability of the score. 
+The website should display an average movie score for the chosen movie and indicate the meaning of this score so that 
+I have a full understanding of the result displayed. 
 
 
 Exception:
