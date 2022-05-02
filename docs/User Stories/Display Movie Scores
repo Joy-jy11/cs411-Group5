@@ -5,10 +5,8 @@ As a user on this movie prediction website, I want to have to see movie's name, 
 Happy path 1:
 After typing in my movie name, I would like the website to display all the available movie scores with the name of the website where the scores are obtained. 
 
-
 Exception:
 In the case of exception, such as typing in the movie name incorrectly, we will not be able to find movie information through the API. Hence, there will not be any result in display.
-
 
 Why is this function important for our app?
 It shows the difference scores of the chosen movie which is important since this is how the final average movie score is based on.
