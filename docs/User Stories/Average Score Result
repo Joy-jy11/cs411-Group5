@@ -7,8 +7,7 @@ In this way, I can easily and quickly obtain a average movie score.
 
 
 Exception:
-In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, I would want to see an error message 
-to remind me the mistake.
+In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, there will not be any result in display.
 
 
 Why is this function important for our app?
