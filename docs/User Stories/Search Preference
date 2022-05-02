@@ -1,10 +1,13 @@
-Topic sentence: The user will use our website interface to input a movie name of their preference.
+Topic sentence: 
+The user will use our website interface to input a movie name of their preference.
 
-Happy path: The user will have provided two cast members that our website is able to find on the IMDB database where our calculations will be done.
+Happy path: 
+The user will have provided two cast members that our website is able to find on the IMDB database where our calculations will be done.
 
-Exceptions: In the case where the user either mispells the name of the movie, the website will have to return an error notifying the user of their mistake and how they can fix it. This is also applicable to when a user
+Exceptions: 
+In the case where the user either mispells the name of the movie, the website will have to return an error notifying the user of their mistake and how they can fix it. This is also applicable to when a user
 only inputs one name.
 
 Why this function is important for our app?
 This function is probably the most important one of our website as it encompasses the main goal of our project. Users will be spending the majority of their
-time using this functionaility, therefore we must define it as clearly as possible in order to ensure they have a smooth experience. 
+time using this functionaility. Therefore, we must define it as clearly as possible in order to ensure they have a smooth experience. 
