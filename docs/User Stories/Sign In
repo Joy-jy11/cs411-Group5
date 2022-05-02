@@ -1,12 +1,13 @@
 Topic sentence:
-  As a user, I want to sign in my account to access this web application and search the score of the chosen movie.
+As a user, I want to sign in my account to access this web application and search the score of the chosen movie.
 
 Happy path: 
-1. I am able to sign in using my google account and see a message notifies me that I have sign in via google successfully.
+1. I am able to sign in using my google account (as third-party authentication) and receive a message which notifies me that I have sign in via google successfully.
  
 Exceptions: 
-1. As a user, if I failed to sign in with the current google account that I have I would like to see an error message telling me this issue.
+1. As a user, if I failed to sign in with the current google account that I have, I would like to see an error message telling me this issue.
 
 Why this function is important for our app?
-1. Every time users want to use this web application, they can just login using their google account and nothing more 
-needed. Since it is easy for users to use, it benefits us because we want more users to use our app.
+1. Every time users want to use this web application, they can just login using their google account and nothing more needed. It would be easier for users to use. This benefits us because we want more users to use our app.
+2. We are not responsible for the passwords of our users; since we do not handle this kind of private information, we can prevent from severe security and leakage dangers.
+3. We believe that websites like google provides a very secure authentication system.
