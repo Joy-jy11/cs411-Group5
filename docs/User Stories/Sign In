@@ -1,5 +1,5 @@
 Topic sentence:
-As a user, I want to sign in my account to access this web application and search the score of the chosen movie.
+As a user, I want to sign in my google account to access this web application and search the score of the chosen movie.
 
 Happy path: 
 I am able to sign in using my google account (as third-party authentication) and receive a message which notifies me that I have sign in via google successfully.
