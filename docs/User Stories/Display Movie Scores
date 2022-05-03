@@ -1,11 +1,15 @@
 Topic sentence:
-As a user on this movie prediction website, I want to have to see movie's name, year, and the scores of the chosen movie from several movie rating websites such as IMDB, metacritic, theMovieDb, and filmAffinity.
+As a user on this movie prediction website, I want to have to see movie's name, year, and the scores of the chosen movie from 
+several movie rating websites such as IMDB, metacritic, theMovieDb, and filmAffinity.
 
 Happy path:
-After typing in my movie name, I would like the website to display all the available movie scores with the name of the website where the scores are obtained. 
+After typing in my movie name, I would like the website to display all the available movie scores with the name of the website 
+where the scores are obtained. 
 
 Exception:
-In the case of exception, such as typing in the movie name incorrectly, we will not be able to find movie information through the API. Hence, there will not be any result in display.
+In the case of exception, such as typing in the movie name incorrectly, we will not be able to find movie information through 
+the API. Hence, there will not be any result in display.
 
 Why is this function important for our app?
-It shows different scores of the chosen movie from various movie rating websites. This is important since we are using all these scores to calculate for a final average movie score.
+It shows different scores of the chosen movie from various movie rating websites. This is important since we are using all these 
+scores to calculate for a final average movie score.
