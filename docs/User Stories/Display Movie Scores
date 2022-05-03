@@ -8,4 +8,4 @@ Exception:
 In the case of exception, such as typing in the movie name incorrectly, we will not be able to find movie information through the API. Hence, there will not be any result in display.
 
 Why is this function important for our app?
-It shows different scores of the chosen movie from various movie rating websites. This is important since we are using all those scores to calculate for a final average movie score.
+It shows different scores of the chosen movie from various movie rating websites. This is important since we are using all these scores to calculate for a final average movie score.
