@@ -1,7 +1,7 @@
-Topic sentence 1:
+Topic sentence:
 As a user on this movie prediction website, I want to have to see movie's name, year, and the scores of the chosen movie from several movie rating websites such as IMDB, metacritic, theMovieDb, and filmAffinity.
 
-Happy path 1:
+Happy path:
 After typing in my movie name, I would like the website to display all the available movie scores with the name of the website where the scores are obtained. 
 
 Exception:
