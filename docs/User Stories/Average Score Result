@@ -9,4 +9,4 @@ Exception:
 In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, there will not be any result in display.
 
 Why is this function important for our app?
-It shows the final result/score based on the input given by users, so it is crucial because it is what they really want to get by using our app.
+It shows the final result/score based on the input given by users, so it is crucial because it is what our users really want to get by using our app.
