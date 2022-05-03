@@ -6,7 +6,7 @@ The user will enter a movie's name, then our website will be able to find corres
 calculations will be done.
 
 Exceptions: 
-In the case where the user misspells the name of the movie, there will not be any result in display.
+In the case where the user misspells the name of the movie, there will not be any result in display except for the mis-typed name.
 
 Why this function is important for our app?
 This function is probably the most important one of our website as it encompasses the main goal of our project. Users will be 
