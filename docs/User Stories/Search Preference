@@ -2,11 +2,13 @@ Topic sentence:
 The user will use our website interface to input a movie name of their preference.
 
 Happy path: 
-The user will enter a movie's name, then our website will be able to find corresponding information on the database where our calculations will be done.
+The user will enter a movie's name, then our website will be able to find corresponding information on the database where our 
+calculations will be done.
 
 Exceptions: 
 In the case where the user misspells the name of the movie, there will not be any result in display.
 
 Why this function is important for our app?
-This function is probably the most important one of our website as it encompasses the main goal of our project. Users will be spending the majority of their
-time using this functionaility. Therefore, we must define it as clearly as possible in order to ensure they have a smooth experience. 
+This function is probably the most important one of our website as it encompasses the main goal of our project. Users will be 
+spending the majority of their time using this functionaility. Therefore, we must define it as clearly as possible in order 
+to ensure they have a smooth experience. 
