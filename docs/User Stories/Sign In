@@ -2,7 +2,8 @@ Topic sentence:
 As a user, I want to sign in my google account to access this web application and search the score of the chosen movie.
 
 Happy path: 
-I am able to sign in using my google account (as third-party authentication) and receive a message which notifies me that I have sign in via google successfully.
+I am able to sign in using my google account (as third-party authentication) and receive a message which notifies me that I have signed in via google successfully.
+After successfully signed in, users will be redirected to the search page.
  
 Exceptions: 
 As a user, if I failed to sign in with my google account, I would have to try it again.
