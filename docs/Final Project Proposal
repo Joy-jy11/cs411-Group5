@@ -1,8 +1,8 @@
 Movie Rating Average Score:
 
-- Basic idea: Our goal is to collect movie ratings from different websites and, able to calculate and display the average movie rating based
-on the scores we obtained from different movie rating websites (could be IMDB, Metacritic, the MovieDb, and filmAffinity). 
-At the same time, we will display movie's name and year of release.
+- Basic idea: Our goal is to collect movie ratings from different websites and then calculate and display the average movie rating based
+on the scores we obtained from different movie rating websites (could be IMDB, Metacritic, the MovieDb, and filmAffinity). At the same time, 
+we will display movie's name and year of release.
 
 - Database: We will use SQLite as our database to store users' data (general information, search history, etc).
 
