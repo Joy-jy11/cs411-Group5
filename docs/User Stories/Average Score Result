@@ -1,12 +1,15 @@
 Topic sentence:
-As a user on this movie prediction website, I want to have a simple “search” button that can be clicked on to in order to search a movie and get its average score result.
+As a user on this movie prediction website, I want to have a simple “search” button that can be clicked on to in order to search 
+a movie and get its average score result.
 
 Happy path:
 After typing in my movie name, I would like to have one button that can do the prediction for me at just one click. 
 In this way, I can easily and quickly obtain an average score for the movie that I searched.
 
 Exception:
-In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, there will not be any result in display.
+In the case of exception, such as not typing in the correct movie name when clicked on the "search" button, there will not be 
+any result in display.
 
 Why is this function important for our app?
-It shows the final result/score based on the input given by users, so it is crucial because it is what our users really want to get by using our app.
+It shows the final result/score based on the input given by users, so it is crucial because it is what our users really want to 
+get by using our app.
