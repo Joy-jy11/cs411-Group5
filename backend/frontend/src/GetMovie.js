@@ -118,7 +118,7 @@ class App extends React.Component {
                     <div key={id}>
                         <div className="card shadow-lg">
                             <div className={"bg-" + this.renderSwitch(id % 6) +
-                                          " card-header"}>Quote {id + 1}</div>
+                                          " card-header"}>Result {id + 1}</div>
                             <div className="card-body">
                                 <blockquote className={"text-" + this.renderSwitch(id % 6) +
                                                    " blockquote mb-0"}>
