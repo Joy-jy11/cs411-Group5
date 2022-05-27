@@ -1,4 +1,4 @@
-# cs411-Group5
+# cs411-Group5 Spring 2022
 
 # Inside backend folder, it's the final version of our web app that works well.
 
